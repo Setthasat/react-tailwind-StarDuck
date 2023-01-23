@@ -8,7 +8,7 @@ function Hero() {
         <div className='relative max-h-[500px]'>
         <div className='max-h-[500px] relative'>
           <div className='absolute w-full h-full text-gray-200 max-h-[500px] bg-black/40 flex flex-col justify-center'>
-            <div className='mb-20'>
+            <div className='mb-24'>
               <Navbar />
             </div>
             <div className='mb-1'>

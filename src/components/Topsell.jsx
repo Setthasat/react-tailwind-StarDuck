@@ -4,7 +4,7 @@ import TopsellSingleCard from './TopsellSingleCard'
 
 function Topsell() {
   return (
-    <div>
+    <div  className='bg-slate-100'>
       <div className='flex justify-center items-center overline'>
         <h1 className=' underline underline-offset-8'>Top <span className='font-bold'>Sell</span></h1>
       </div>

@@ -9,11 +9,11 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
 
     return (
-            <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4'>
+            <div className='fixed max-w-[1640px] mx-auto flex justify-between items-center p-4'>
                 {/* Left side */}
                 <div className='flex items-center justify-between'>
                     <div onClick={() => setNav(!nav)} className='cursor-pointer'>
-                        <AiOutlineMenu size={30} />
+                        <AiOutlineMenu size={30} className='text-yellow-300'/>
                     </div>
                 </div>
 

@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero" 
 import Topsell from "./components/Topsell"
 import HeadCard from "./components/HeadCard"
+import Footer from "./components/Footer"
 import SearchBar from "./components/SearchBar"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <SearchBar />
         <HeadCard />
         <Topsell />
+        <Footer />
     </div>
   )
 }

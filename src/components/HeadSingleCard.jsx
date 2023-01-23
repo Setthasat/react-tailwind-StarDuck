@@ -10,7 +10,7 @@ function HeadSingleCard({ item }) {
           <p className='text-white flex justify-center items-center mt-1 mb-1 font-sans text-[17px]  md:text-[20px]'>
             {item.name}
           </p>
-          <motion.button  whileHover={{ scale: 1.2 }} className='ml-5 md:ml-[6.5rem] text-[17px] md:text-[19px] md:-mt-4 border border-white rounded-xl text-white'><span className='m-2'>Buy</span></motion.button>
+          <motion.button  whileHover={{ scale: 1.2 }} className='ml-5 md:ml-[4.5rem] text-[17px] md:text-[19px] md:-mt-4 border border-white rounded-xl text-white'><span className='m-2'>Buy</span></motion.button>
         </div>
       </div>
   )
