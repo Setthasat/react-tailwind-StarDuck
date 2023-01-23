@@ -1,11 +1,11 @@
-import Espresso from '../assets/Espresso.jpg'
+import Duck from '../assets/Duck.png'
 
 export const data = [
     {
         id : 1,
         name : 'Josh',
         category : 'Duck',
-        image : {Espresso},
+        image : {Duck},
     },
     {
         id : 2,
