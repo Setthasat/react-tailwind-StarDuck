@@ -1,11 +1,11 @@
-
+import Espresso from '../assets/Espresso.jpg'
 
 export const data = [
     {
         id : 1,
         name : 'Espresso',
         category : 'Coffee',
-        image : 'https://aeromatic.app/img/recipe/photos/1.91x1-espresso.jpg',
+        image : {Espresso},
     },
     {
         id : 2,
