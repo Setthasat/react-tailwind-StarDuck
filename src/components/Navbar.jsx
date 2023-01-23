@@ -28,7 +28,7 @@ const Navbar = () => {
                         className='absolute right-4 top-4 cursor-pointer text-black'
                     />
                     <h2 className='text-2xl p-4 text-black'>
-                        StarBox <span className='font-bold'>Coffee</span>
+                        Star<span className='text-yellow-600'>Duck</span> <span className='font-bold'>Store</span>
                     </h2>
                     <nav>
                         <ul className='flex flex-col p-4 text-gray-800'>

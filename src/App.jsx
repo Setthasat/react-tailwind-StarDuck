@@ -2,12 +2,14 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero" 
 import Video from "./components/Video"
 import HeadCard from "./components/HeadCard"
+import SearchBar from "./components/SearchBar"
 
 function App() {
-  document.title = "StarBox Coffee"
+  document.title = "StarDuck Store"
   return (
     <div>
         <Hero />
+        <SearchBar />
         <HeadCard />
     </div>
   )
