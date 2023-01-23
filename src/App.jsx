@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero" 
-
+import Topsell from "./components/Topsell"
 import HeadCard from "./components/HeadCard"
 import SearchBar from "./components/SearchBar"
 
@@ -11,6 +11,7 @@ function App() {
         <Hero />
         <SearchBar />
         <HeadCard />
+        <Topsell />
     </div>
   )
 }

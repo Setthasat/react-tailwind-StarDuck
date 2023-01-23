@@ -21,7 +21,7 @@ const Navbar = () => {
                 {nav ? <div className='fixed w-full h-screen bg-black/40 z-10 top-0 left-0'></div> : ''}
 
                 {/* Sidebar */}
-                <div className={nav ? 'fixed top-0 left-0 w-[250px] h-screen bg-zinc-50 z-10 duration-300 ' : 'fixed top-0 left-[-100%] w-[250px] h-screen bg-zinc-50 z-10 duration-300'}>
+                <div className={nav ? 'fixed top-0 left-0 w-[250px] md:w-[350px] h-screen bg-zinc-50 z-10 duration-300 ' : 'fixed top-0 left-[-100%] md:w-[350px] w-[250px] h-screen bg-zinc-50 z-10 duration-300'}>
                     <AiOutlineClose
                         onClick={() => setNav(!nav)}
                         size={30}
