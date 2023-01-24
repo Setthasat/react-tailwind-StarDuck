@@ -1,13 +1,15 @@
 import React from 'react'
 import Navbar from './Navbar'
-
+import useStore from '../store/store'
 function Hero() {
+
+  const darkmode = useStore((state => state.darkmode))
   return (
     <div>
       <div className='max-w-[1640px] mx-auto '>
         <div className='relative max-h-[500px]'>
         <div className='max-h-[500px] relative'>
-          <div className='absolute w-full h-full text-gray-200 max-h-[500px] bg-black/40 flex flex-col justify-center'>
+          <div className={darkmode ? 'absolute w-full h-full text-gray-200 max-h-[500px] bg-black/40 flex flex-col justify-center' : 'absolute w-full h-full text-gray-200 max-h-[500px] bg-black/50 flex flex-col justify-center'}>
             <div className='mb-24'>
               <Navbar />
             </div>
