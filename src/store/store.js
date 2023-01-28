@@ -1,13 +1,12 @@
 import create from 'zustand';
+import { persist } from 'zustand/middleware'
 
-function Store(set) {
-    return {
-        darkmode: true,
+let store = (set) => ({        darkmode: true,
         changeDark: () => set((state) => ({ darkmode: true})),
         changeLight: () => set((state)=> ({ darkmode: false}))
+})
 
-    };
-}
+store = persist(store, {name: "DarkModeChange"})
+const useStore = create(store)
 
-const useStore = create(Store)
 export default useStore 
