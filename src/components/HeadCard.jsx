@@ -6,7 +6,7 @@ import useStore from '../store/store'
 function HeadCard() {
   const darkmode = useStore((state => state.darkmode))
   return (
-    <div className={darkmode ? 'bg-gray-100 duration-300' : ' bg-[#404040] duration-300'}>
+    <div className={darkmode ? 'from-slate-50 to-slate-100 duration-300' : ' bg-[#404040] duration-300'}>
       <div className="flex justify-center items-center">
         <h1 className={darkmode ? ' underline-offset-8 underline text-black' : 'underline-offset-8 underline  text-white'}><span className={darkmode ? 'overline ' : 'overline '}>Product</span></h1>
       </div>
