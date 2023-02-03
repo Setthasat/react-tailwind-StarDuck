@@ -10,7 +10,7 @@ function App() {
   const darkmode = useStore((state => state.darkmode))
   document.title = "StarDuck Store"
   return (
-    <div className={darkmode ? 'bg-slate-100 duration-300 h-screen relative' : 'bg-[#404040]  duration-300 h-screen relative'}>
+    <div>
         <Hero />
         <SearchBar />
         <HeadCard />

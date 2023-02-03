@@ -5,7 +5,7 @@ import useStore from '../store/store'
 function Footer() {
     const darkmode = useStore((state => state.darkmode))
     return (
-        <div className={darkmode ? 'from-slate-50 to-slate-100 duration-' : 'bg-[#404040] duration-300'}>
+        <div className={darkmode ? 'from-slate-50 to-slate-100 duration-[650ms]' : 'bg-[#404040] duration-[650ms]'}>
             <div className={darkmode ? ' font-sans flex justify-center items-center ' : 'text-white font-sans flex justify-center items-center'}>
                 <h1 className='overline'><span className='underline underline-offset-4'>Contact</span></h1>
             </div>
@@ -18,7 +18,7 @@ function Footer() {
 
                     <div className='flex justify-center items-center'>
                         <AiOutlineGithub />
-                        <p>Github : DekChineSafe</p>
+                        <p>Github : Setthasat (Safety)</p>
                     </div>
 
                 </div>

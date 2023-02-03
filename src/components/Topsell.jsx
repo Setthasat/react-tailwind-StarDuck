@@ -6,7 +6,7 @@ import useStore from '../store/store'
 function Topsell() {
   const darkmode = useStore((state => state.darkmode))
   return (
-    <div  className={darkmode ? 'from-slate-50 to-slate-100 duration-300' : 'bg-[#404040] duration-300'}>
+    <div  className={darkmode ? 'from-slate-50 to-slate-100 duration-[600ms]' : 'bg-[#404040] duration-[600ms]'}>
       <div className={darkmode ? 'flex justify-center items-center overline' : 'flex justify-center items-center overline text-white'}>
         <h1 className={darkmode ? ' underline underline-offset-8' : 'underline underline-offset-8 text-white'}>Top <span className='font-bold'>Sell</span></h1>
       </div>
